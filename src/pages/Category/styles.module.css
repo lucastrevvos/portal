@@ -1,0 +1,11 @@
+.container {
+    padding: 0 1rem;
+    color: var(--cor-primaria);
+    gap: 1.5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

@@ -15,7 +15,7 @@ export function LastNews(){
                                 tem umas dadas novidades prometidas pelo diretor Adam Mosseri
                             </p>
                     </div>
-                    <div className={styles.cardDesktop}>
+                    <div className={styles.card}>
                         <div className={styles.imagem}>
                                 <img src={noticia1} alt="" />
                         </div>
@@ -24,7 +24,7 @@ export function LastNews(){
                                 tem umas dadas novidades prometidas pelo diretor Adam Mosseri
                             </p>
                         </div>
-                    <div className={styles.cardDesktop}>
+                    <div className={styles.card}>
                         <div className={styles.imagem}>
                             <img src={noticia1} alt="" />
                         </div>

@@ -70,9 +70,10 @@ header {
     display: none;
 }
 
-
-
-
+.menu-mobile a{
+    text-decoration: none;
+    color: var(--cor-textos);
+}
 
 @media (min-width: 768px) {
 
