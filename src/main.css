@@ -1,0 +1,28 @@
+:root {
+  font-size: 16px;
+  --cor-textos: #003c54;
+  --cor-primaria: #31A24C;
+  --cor-primaria-back: #288C3D;
+  --cor-secundaria: #143C4D;
+  --cor-secundaria-back: #f0f0f0;
+  --cor-auxiliar: #1e4b5f;
+  --cor-neutra: #F4F4F6;
+  --cor-texto: #212121;
+  --cor-clara: #FFFFFF;
+
+  --fonte-principal: 'Roboto', sans-serif;
+  --raio-borda: 8px;
+  --espacamento: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background-color: var(--cor-neutra);
+  font-family: var(--fonte-principal);
+}

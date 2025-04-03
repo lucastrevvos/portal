@@ -1,0 +1,51 @@
+.container {
+    padding: 0 0.1rem;
+    color: var(--cor-textos);
+    
+}
+
+.card h1 {
+    font-size: 1.3rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    gap:15px;
+    margin-bottom: 20px;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+.icon {
+    background-color: #64c7bb;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 55px;
+    height: 55px;
+    padding: 2px;
+}
+
+p {
+    margin-top: -10px;
+}
+
+@media (min-width: 768px) {
+    .content {
+        max-width: 1024px;
+        margin: 0 auto;
+        
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+}
