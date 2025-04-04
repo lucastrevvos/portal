@@ -1,3 +1,4 @@
+import { formatarTitulo } from '../../utils'
 import styles from './styles.module.css'
 
 type Props = {
@@ -13,7 +14,7 @@ type Props = {
 export function HeaderCategory({ titulo, filtro, setFiltro, busca, setBusca, paginaAtual, exibirPaginacao = true}: Props){
     return (
         <div className={styles.container}>
-            <h1>{titulo.toUpperCase()}</h1>
+            <h1>{formatarTitulo(titulo)}</h1>
 
             <div className={styles.filtros}>
                 <select name="tipo" id="tipo" value={filtro} onChange={(e) => setFiltro(e.target.value)}>

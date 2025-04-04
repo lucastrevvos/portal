@@ -29,7 +29,7 @@ export function Layout() {
             <div className='content'>
                 <nav className='menu-mobile'>
                     <ul>
-                        <a href="/categoria/tecnologia">Técnologia</a>
+                        <a href="/categoria/tecnologia">Tecnologia</a>
                         <a href="/categoria/financas">Finanças</a>
                         <a href="/categoria/saude">Saúde</a>
                     </ul> 
@@ -40,7 +40,7 @@ export function Layout() {
                 <nav className={`menu-mobile-suspenso ${open ? "open" : ""}`}>
                     <a href="/">Início</a>
                     <a href="/">Aplicativos</a>
-                    <a href="/categoria/tecnologia">Técnologia</a>
+                    <a href="/categoria/tecnologia">Tecnologia</a>
                     <a href="/categoria/financas">Finanças</a>
                     <a href="/categoria/saude">Saúde</a>
                     <a href="/utilitarios">Utilitários</a>
