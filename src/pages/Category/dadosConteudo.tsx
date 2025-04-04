@@ -5,7 +5,32 @@ export const dadosConteudo = [
         tipo: 'noticias',
         titulo: 'Novo chip revolcuiona celulares',
         resumo: 'Um novo chip promete triplicar a velocidade dos smartphones...',
-        imagem: '/news/chip.png'
+        imagem: '/news/chip.png',
+        conteudo: (
+            <>
+                <p>Um novo chip promete triplicar a velocidade dos smartphones, <a href="#" target="_blank">leia mais aqui</a>.</p>
+                
+                <p>
+                    Um novo chip promete triplicar a velocidade dos smartphones, Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones,Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones, Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones, Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones, Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones.
+                </p>
+                <p>
+                    Um novo chip promete triplicar a velocidade dos smartphones, Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones,Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones, Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones, Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones, Um novo chip promete triplicar a velocidade dos smartphones,
+                    Um novo chip promete triplicar a velocidade dos smartphones.
+                </p>
+                <p>
+                    <strong>Fonte: Lucas Amaral</strong>
+                </p>
+            </>
+            ),
     },
     {
         id: 2,
