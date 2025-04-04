@@ -9,3 +9,32 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+.paginacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    
+    button {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: backgound-color 0.2 ease;
+        background-color: var(--cor-primaria, #3f51b5);
+    }
+
+    button:hover:not(:disabled){
+        background-color: var(--cor-primaria-hover, #303f9f);
+    }
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+        color: #666;
+    }
+}

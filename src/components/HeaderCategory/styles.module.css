@@ -1,0 +1,34 @@
+.container {
+    margin-bottom: 2rem;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtros select,
+.filtros input {
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.filtros input {
+    min-width: 200px;
+}
+
+.paginacao {
+    font-weight: 500;
+    color: #555;
+}

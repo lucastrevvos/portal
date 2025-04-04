@@ -3,6 +3,7 @@ import styles from './styles.module.css'
 import { useEffect, useState } from "react"
 import { dadosConteudo } from './dadosConteudo'
 import { CardConteudo } from "../../components/CardConteudo"
+import { HeaderCategory } from "../../components/HeaderCategory"
 
 export function CategoryPage() {
     const {categoria} = useParams()
@@ -32,18 +33,17 @@ export function CategoryPage() {
     return (
         <>
             <div className={styles.container}>
-                <h1>{categoria?.toLocaleUpperCase()}</h1>
-                <div>
-                    <select name="tipo" id="tipo" value={filtro} onChange={(e) => setFiltro(e.target.value)}>
-                        <option value="noticias">Notícias</option>
-                        <option value="artigos">Artigos</option>
-                        <option value="apps">Aplicativos</option>
-                    </select>
-                </div>
-                <span>Página {paginaAtual}</span>
-                <input type="text" placeholder="Buscar por titulo..." value={busca} onChange={(e) => setBusca(e.target.value)} />
+               
+               <HeaderCategory
+                titulo={categoria || ''}
+                filtro={filtro}
+                setFiltro={setFiltro}
+                busca={busca}
+                setBusca={setBusca}
+                paginaAtual={paginaAtual}
+               />
 
-                <div>
+                <div className={styles.paginacao}>
                     <button onClick={() => setPaginaAtual(paginaAtual - 1)} disabled={paginaAtual === 1}>Anterior</button>
                     <button onClick={() => setPaginaAtual(paginaAtual + 1)} disabled={fim >= conteudoFiltrado.length}>Próxima</button>
                 </div>
