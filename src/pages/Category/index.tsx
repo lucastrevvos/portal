@@ -1,4 +1,6 @@
 import { useParams } from "react-router"
+import { useSearchParams, useNavigate } from "react-router-dom"
+
 import styles from './styles.module.css'
 import { useEffect, useState } from "react"
 import { dadosConteudo } from './dadosConteudo'
@@ -7,8 +9,14 @@ import { HeaderCategory } from "../../components/HeaderCategory"
 
 export function CategoryPage() {
     const {categoria} = useParams()
+    const [ searchParams ] = useSearchParams()
+
+    const navigate = useNavigate()
+    
+
     const [busca, setBusca] = useState('')
-    const [filtro, setFiltro] = useState('noticias')
+    const filtroInicial = searchParams.get('filtro') || 'noticias'
+    const [filtro, setFiltro] = useState(filtroInicial)
     const [paginaAtual, setPaginaAtual] = useState(1)
     const itensPorPagina = 3
 
@@ -25,6 +33,13 @@ export function CategoryPage() {
     .sort((a, b) => b.id - a.id)
 
     const pagina = conteudoFiltrado.slice(inicio, fim)
+
+    useEffect(() => {
+        const params = new URLSearchParams()
+        if(filtro !== 'noticias') params.set('filtro', filtro)
+            navigate(`/categoria/${categoria}?${params.toString()}`, { replace: true })
+    }, [filtro])
+   
 
     useEffect(() => {
         setPaginaAtual(1)

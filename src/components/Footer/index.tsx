@@ -9,20 +9,20 @@ export function Footer(){
                     <span>
                         <h2>TREVVOS</h2>
                         <ul>
-                            <li>Sobre</li>
-                            <li>Contato</li>
-                            <li>Politíca de Privacidade</li>
-                            <li>Termos de Uso</li>
+                            <li><a href="/sobre">Sobre</a></li>
+                            <li><a href="/contato">Contato</a></li>
+                            <li><a href="/privacidade">Politíca de Privacidade</a></li>
+                            <li><a href="/termos">Termos de Uso</a></li>
                         </ul>
                     </span>
                     <span>
                         <h2>CATEGORIAS</h2>
                         <ul>
-                            <li>Aplicativos</li>
-                            <li>Tecnologia</li>
-                            <li>Finanças</li>
-                            <li>Saúde</li>
-                            <li>Utilitários</li>
+                            <li><a href="/categoria/aplicativos">Aplicativos</a></li>
+                            <li><a href="/categoria/tecnologia">Tecnologia</a></li>
+                            <li><a href="/categoria/financas">Finanças</a></li>
+                            <li><a href="/categoria/saude">Saúde</a></li>
+                            <li><a href="/utilitarios">Utilitários</a></li>
                         </ul>
                     </span>
                 </div>

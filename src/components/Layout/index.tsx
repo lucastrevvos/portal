@@ -11,14 +11,14 @@ export function Layout() {
         <>
         <header>
             <div className="navbar">
-                <img  src={logo} alt="Logotipo Trevvos" />
+            <a href="/"><img  src={logo} alt="Logotipo Trevvos" /></a>
                 <nav className="menu-desktop">
                     <ul>
                         <li><a href="/categoria/tecnologia">Tecnologia</a></li>
                         <li><a href="/categoria/financas">Finanças</a></li>
                         <li><a href="/categoria/saude">Saúde</a></li>
                         <li><a href="/utilitarios">Utilitários</a></li>
-                        <li><a href="/apps">Aplicativos</a></li>
+                        <li><a href="/categoria/tecnologia/?filtro=aplicativos">Aplicativos</a></li>
                         <li><a href="/sobre">Sobre</a></li>
                         <li><a href="/contato">Contato</a></li>
                     </ul>
@@ -39,7 +39,7 @@ export function Layout() {
             
                 <nav className={`menu-mobile-suspenso ${open ? "open" : ""}`}>
                     <a href="/">Início</a>
-                    <a href="/">Aplicativos</a>
+                    <a href="/categoria/tecnologia/?filtro=aplicativos">Aplicativos</a>
                     <a href="/categoria/tecnologia">Tecnologia</a>
                     <a href="/categoria/financas">Finanças</a>
                     <a href="/categoria/saude">Saúde</a>

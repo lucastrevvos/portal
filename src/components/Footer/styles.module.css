@@ -38,11 +38,16 @@
 }
 
 .container {
+    a {
+        color: var(--cor-clara);
+        text-decoration: none;
+    }
+    
     footer {
         color: var(--cor-clara);
         display: flex;
         justify-content: center;
-        text-align: center;
+        text-align: center;     
     }
 }
 

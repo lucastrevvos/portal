@@ -20,7 +20,7 @@ export function HeaderCategory({ titulo, filtro, setFiltro, busca, setBusca, pag
                 <select name="tipo" id="tipo" value={filtro} onChange={(e) => setFiltro(e.target.value)}>
                     <option value="noticias">Notícias</option>
                     <option value="artigos">Artigos</option>
-                    <option value="apps">Aplicativos</option>
+                    <option value="aplicativos">Aplicativos</option>
                 </select>
 
                 <input type="text" placeholder='Buscar por titulo...' value={busca} onChange={(e) => setBusca(e.target.value)} />
