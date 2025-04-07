@@ -18,7 +18,7 @@ export function Footer(){
                     <span>
                         <h2>CATEGORIAS</h2>
                         <ul>
-                            <li><a href="/categoria/aplicativos">Aplicativos</a></li>
+                            <li><a href="/categoria/tecnologia/?filtro=aplicativos">Aplicativos</a></li>
                             <li><a href="/categoria/tecnologia">Tecnologia</a></li>
                             <li><a href="/categoria/financas">Finanças</a></li>
                             <li><a href="/categoria/saude">Saúde</a></li>

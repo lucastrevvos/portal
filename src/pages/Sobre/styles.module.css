@@ -1,0 +1,26 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    line-height: 1.7;
+    color: #212121;
+    background-color: #FFFFFF;
+  }
+  
+  .container h1 {
+    font-size: 2rem;
+    color: #143C4D;
+    margin-bottom: 1.5rem;
+  }
+  
+  .container h2 {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: #31A24C;
+  }
+  
+  .container p {
+    margin-top: 0.75rem;
+    font-size: 1rem;
+  }
+  

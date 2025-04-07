@@ -1,3 +1,5 @@
+import { IMC } from "../../components/Utils/IMC";
+
 export const dadosConteudo = [
     {
         id: 1,
@@ -59,7 +61,7 @@ export const dadosConteudo = [
     {
         id: 5,
         categoria: 'tecnologia',
-        tipo: 'apps',
+        tipo: 'aplicativos',
         titulo: 'receita',
         resumo: 'Um novo chip promete triplicar a velocidade dos smartphones...',
         imagem: '/news/chip.png'
@@ -71,6 +73,19 @@ export const dadosConteudo = [
         titulo: 'algum artigo legal',
         resumo: 'Um novo chip promete triplicar a velocidade dos smartphones...',
         imagem: '/news/chip.png'
+    },
+    {
+        id: 7,
+        categoria: 'utilitarios',
+        tipo: 'ferramentas',
+        titulo: 'Calculadora IMC',
+        resumo: 'Calcule IMC',
+        imagem: '/news/chip.png',
+        conteudo: (
+            <>
+                <IMC></IMC>
+            </>
+            ),
     },
 
 ]
