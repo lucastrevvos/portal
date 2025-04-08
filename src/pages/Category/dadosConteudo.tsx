@@ -1,5 +1,6 @@
 import { IMC } from "../../components/Utils/IMC";
 import { CalculadoraJurosCompostos } from "../../components/Utils/JurosCompostos";
+import { CalculadoraRegraDeTres } from "../../components/Utils/RegraTres";
 
 export const dadosConteudo = [
     {
@@ -100,6 +101,20 @@ export const dadosConteudo = [
         conteudo: (
             <>
                 <CalculadoraJurosCompostos />
+            </>
+            ),
+    },
+    {
+        id: 9,
+        categoria: 'utilitarios',
+        tipo: 'ferramentas',
+        titulo: 'Calculadora de Regra de Três',
+        resumo: 'Preencha três valores e descubra o quarto proporcional.',
+        imagem: '/utilitarios/regra-thumb.png',
+        link: '/categoria/utilitarios/9/?filtro=ferramentas',
+        conteudo: (
+            <>
+                <CalculadoraRegraDeTres></CalculadoraRegraDeTres>
             </>
             ),
     },
