@@ -1,3 +1,4 @@
+import { ConversorMoedas } from "../../components/Utils/ConvertorMoedas";
 import { IMC } from "../../components/Utils/IMC";
 import { CalculadoraJurosCompostos } from "../../components/Utils/JurosCompostos";
 import { CalculadoraRegraDeTres } from "../../components/Utils/RegraTres";
@@ -10,6 +11,7 @@ export const dadosConteudo = [
         tipo: 'noticias',
         titulo: 'Novo chip revolcuiona celulares',
         resumo: 'Um novo chip promete triplicar a velocidade dos smartphones...',
+        link: '/categoria/utilitarios/10/?filtro=simuladores',
         imagem: '/news/chip.png',
         conteudo: (
             <>
@@ -43,6 +45,7 @@ export const dadosConteudo = [
         tipo: 'noticias',
         titulo: 'revolcuiona celulares',
         resumo: 'Um novo chip promete triplicar a velocidade dos smartphones...',
+        link: '/categoria/utilitarios/10/?filtro=simuladores',
         imagem: '/news/chip.png'
     },
     {
@@ -51,6 +54,7 @@ export const dadosConteudo = [
         tipo: 'noticias',
         titulo: 'Novo',
         resumo: 'Um novo chip promete triplicar a velocidade dos smartphones...',
+        link: '/categoria/utilitarios/10/?filtro=simuladores',
         imagem: '/news/chip.png'
     },
     {
@@ -59,6 +63,7 @@ export const dadosConteudo = [
         tipo: 'noticias',
         titulo: 'celulares',
         resumo: 'Um novo chip promete triplicar a velocidade dos smartphones...',
+        link: '/categoria/utilitarios/10/?filtro=simuladores',
         imagem: '/news/chip.png'
     },
     {
@@ -67,6 +72,7 @@ export const dadosConteudo = [
         tipo: 'aplicativos',
         titulo: 'receita',
         resumo: 'Um novo chip promete triplicar a velocidade dos smartphones...',
+        link: '/categoria/utilitarios/10/?filtro=simuladores',
         imagem: '/news/chip.png'
     },
     {
@@ -75,6 +81,7 @@ export const dadosConteudo = [
         tipo: 'artigos',
         titulo: 'algum artigo legal',
         resumo: 'Um novo chip promete triplicar a velocidade dos smartphones...',
+        link: '/categoria/utilitarios/10/?filtro=simuladores',
         imagem: '/news/chip.png'
     },
     {
@@ -130,6 +137,20 @@ export const dadosConteudo = [
         conteudo: (
             <>
                 <SimuladorTempoLeitura></SimuladorTempoLeitura>
+            </>
+            ),
+    },
+    {
+        id: 11,
+        categoria: 'utilitarios',
+        tipo: 'conversores',
+        titulo: 'Conversor de Moedas',
+        resumo: 'Converta valores com câmbio em tempo real',
+        imagem: '/utilitarios/moedas-thumb.png',
+        link: '/categoria/utilitarios/11/?filtro=conversores',
+        conteudo: (
+            <>
+                <ConversorMoedas />
             </>
             ),
     },

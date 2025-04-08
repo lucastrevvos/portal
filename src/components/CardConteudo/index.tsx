@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'; // se estiver usando React Router
 import styles from './styles.module.css'
+import { ReactNode } from 'react';
 
 type Props = {
     id: number
@@ -7,8 +8,9 @@ type Props = {
     tipo: string
     titulo: string
     resumo: string
+    conteudo?: ReactNode
     imagem: string
-    link: string
+    link: string 
 }
 
 
