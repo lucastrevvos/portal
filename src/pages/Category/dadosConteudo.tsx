@@ -1,6 +1,7 @@
 import { IMC } from "../../components/Utils/IMC";
 import { CalculadoraJurosCompostos } from "../../components/Utils/JurosCompostos";
 import { CalculadoraRegraDeTres } from "../../components/Utils/RegraTres";
+import { SimuladorTempoLeitura } from "../../components/Utils/SimuladorTempoLeitura";
 
 export const dadosConteudo = [
     {
@@ -83,7 +84,7 @@ export const dadosConteudo = [
         titulo: 'Calculadora IMC',
         resumo: 'Calcule IMC',
         imagem: '/utilitarios/calc-thumb.png',
-        link: '/categoria/utilitarios/7/?filtro=ferramentas',
+        link: '/categoria/utilitarios/7/?filtro=calculadoras',
         conteudo: (
             <>
                 <IMC></IMC>
@@ -97,7 +98,7 @@ export const dadosConteudo = [
         titulo: 'Calculadora de Juros Compostos',
         resumo: 'Simule seus rendimentos com base em juros compostos mensais.',
         imagem: '/utilitarios/juros-thumb.png',
-        link: '/categoria/utilitarios/8/?filtro=ferramentas',
+        link: '/categoria/utilitarios/8/?filtro=calculadoras',
         conteudo: (
             <>
                 <CalculadoraJurosCompostos />
@@ -111,10 +112,24 @@ export const dadosConteudo = [
         titulo: 'Calculadora de Regra de Três',
         resumo: 'Preencha três valores e descubra o quarto proporcional.',
         imagem: '/utilitarios/regra-thumb.png',
-        link: '/categoria/utilitarios/9/?filtro=ferramentas',
+        link: '/categoria/utilitarios/9/?filtro=calculadoras',
         conteudo: (
             <>
                 <CalculadoraRegraDeTres></CalculadoraRegraDeTres>
+            </>
+            ),
+    },
+    {
+        id: 10,
+        categoria: 'utilitarios',
+        tipo: 'simuladores',
+        titulo: 'Simulador de Tempo de Leitura',
+        resumo: 'Descubra quanto tempo levaria para ler um texto',
+        imagem: '/utilitarios/simuladorleitura-thumb.png',
+        link: '/categoria/utilitarios/10/?filtro=simuladores',
+        conteudo: (
+            <>
+                <SimuladorTempoLeitura></SimuladorTempoLeitura>
             </>
             ),
     },
