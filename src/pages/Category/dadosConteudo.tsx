@@ -79,7 +79,7 @@ export const dadosConteudo = [
     {
         id: 7,
         categoria: 'utilitarios',
-        tipo: 'ferramentas',
+        tipo: 'calculadoras',
         titulo: 'Calculadora IMC',
         resumo: 'Calcule IMC',
         imagem: '/utilitarios/calc-thumb.png',
@@ -93,7 +93,7 @@ export const dadosConteudo = [
     {
         id: 8,
         categoria: 'utilitarios',
-        tipo: 'ferramentas',
+        tipo: 'calculadoras',
         titulo: 'Calculadora de Juros Compostos',
         resumo: 'Simule seus rendimentos com base em juros compostos mensais.',
         imagem: '/utilitarios/juros-thumb.png',
@@ -107,7 +107,7 @@ export const dadosConteudo = [
     {
         id: 9,
         categoria: 'utilitarios',
-        tipo: 'ferramentas',
+        tipo: 'calculadoras',
         titulo: 'Calculadora de Regra de Três',
         resumo: 'Preencha três valores e descubra o quarto proporcional.',
         imagem: '/utilitarios/regra-thumb.png',

@@ -21,22 +21,32 @@ export function HeaderCategory({ titulo, filtro, setFiltro, busca, setBusca, pag
             <h1>{formatarTitulo(titulo)}</h1>
 
             {
-                categoria !== 'utilitarios' && (
-                    <div className={styles.filtros}>
-                    <select name="tipo" id="tipo" value={filtro} onChange={(e) => setFiltro(e.target.value)}>
-                        <option value="noticias">Notícias</option>
-                        <option value="artigos">Artigos</option>
-                        <option value="aplicativos">Aplicativos</option>
-                        <option value="utilitarios">utils</option>
-                    </select>
-    
-                    <input type="text" placeholder='Buscar por titulo...' value={busca} onChange={(e) => setBusca(e.target.value)} />
-    
-                    {exibirPaginacao && paginaAtual !== undefined && (
-                        <span className={styles.paginacao}>Página {paginaAtual}</span>
-                    )}
-                </div>
-                )
+               <div className={styles.filtros}>
+               {categoria === 'utilitarios' ? (
+                 <select name="tipo" id="tipo" value={filtro} onChange={(e) => setFiltro(e.target.value)}>
+                   <option value="calculadoras">Calculadoras</option>
+                   <option value="simuladores">Simuladores</option>
+                   <option value="conversores">Conversores</option>
+                 </select>
+               ) : (
+                 <select name="tipo" id="tipo" value={filtro} onChange={(e) => setFiltro(e.target.value)}>
+                   <option value="noticias">Notícias</option>
+                   <option value="artigos">Artigos</option>
+                   <option value="aplicativos">Aplicativos</option>
+                 </select>
+               )}
+             
+               <input
+                 type="text"
+                 placeholder={categoria === 'utilitarios' ? 'Buscar por utilitário...' : 'Buscar por título...'}
+                 value={busca}
+                 onChange={(e) => setBusca(e.target.value)}
+               />
+             
+               {exibirPaginacao && paginaAtual !== undefined && (
+                 <span className={styles.paginacao}>Página {paginaAtual}</span>
+               )}
+             </div>
             }
         </div>
     )
