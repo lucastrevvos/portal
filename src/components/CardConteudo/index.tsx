@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'; // se estiver usando React Router
+import styles from './styles.module.css'
+
 type Props = {
     id: number
     categoria: string
@@ -5,18 +8,18 @@ type Props = {
     titulo: string
     resumo: string
     imagem: string
+    link: string
 }
 
-import styles from './styles.module.css'
 
 export function CardConteudo({data}: {data: Props}){
     return (
-        <div className={styles.container}>
+        <Link to={data.link} className={styles.container}>
             <div className={styles.imagem}>
                 <img src={data.imagem} alt="" />
             </div>
             <h3>{data.titulo}</h3>
             <p>{data.resumo}</p>
-        </div>
+        </Link>
     )
 }

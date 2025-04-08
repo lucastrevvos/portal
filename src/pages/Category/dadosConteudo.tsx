@@ -1,4 +1,5 @@
 import { IMC } from "../../components/Utils/IMC";
+import { CalculadoraJurosCompostos } from "../../components/Utils/JurosCompostos";
 
 export const dadosConteudo = [
     {
@@ -80,12 +81,28 @@ export const dadosConteudo = [
         tipo: 'ferramentas',
         titulo: 'Calculadora IMC',
         resumo: 'Calcule IMC',
-        imagem: '/news/chip.png',
+        imagem: '/utilitarios/calc-thumb.png',
+        link: '/categoria/utilitarios/7/?filtro=ferramentas',
         conteudo: (
             <>
                 <IMC></IMC>
             </>
             ),
     },
+    {
+        id: 8,
+        categoria: 'utilitarios',
+        tipo: 'ferramentas',
+        titulo: 'Calculadora de Juros Compostos',
+        resumo: 'Simule seus rendimentos com base em juros compostos mensais.',
+        imagem: '/utilitarios/juros-thumb.png',
+        link: '/categoria/utilitarios/8/?filtro=ferramentas',
+        conteudo: (
+            <>
+                <CalculadoraJurosCompostos />
+            </>
+            ),
+    },
+    
 
 ]

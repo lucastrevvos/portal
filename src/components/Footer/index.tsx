@@ -22,7 +22,7 @@ export function Footer(){
                             <li><a href="/categoria/tecnologia">Tecnologia</a></li>
                             <li><a href="/categoria/financas">Finanças</a></li>
                             <li><a href="/categoria/saude">Saúde</a></li>
-                            <li><a href="/utilitarios">Utilitários</a></li>
+                            <li><a href="/categoria/utilitarios?filtro=ferramentas">Utilitários</a></li>
                         </ul>
                     </span>
                 </div>

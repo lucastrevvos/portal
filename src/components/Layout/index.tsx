@@ -17,7 +17,7 @@ export function Layout() {
                         <li><a href="/categoria/tecnologia">Tecnologia</a></li>
                         <li><a href="/categoria/financas">Finanças</a></li>
                         <li><a href="/categoria/saude">Saúde</a></li>
-                        <li><a href="/categoria/utilitarios">Utilitários</a></li>
+                        <li><a href="/categoria/utilitarios?filtro=ferramentas">Utilitários</a></li>
                         <li><a href="/categoria/tecnologia/?filtro=aplicativos">Aplicativos</a></li>
                         <li><a href="/sobre">Sobre</a></li>
                         <li><a href="/contato">Contato</a></li>
@@ -43,7 +43,7 @@ export function Layout() {
                     <a href="/categoria/tecnologia">Tecnologia</a>
                     <a href="/categoria/financas">Finanças</a>
                     <a href="/categoria/saude">Saúde</a>
-                    <a href="/categoria/utilitarios">Utilitários</a>
+                    <a href="/categoria/utilitarios?filtro=ferramentas">Utilitários</a>
                     <a href="/sobre">Sobre</a>
                     <a href="/contato">Contato</a>
                 </nav>
