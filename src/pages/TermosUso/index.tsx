@@ -1,7 +1,14 @@
+import { SEO } from '../../components/SEO';
 import styles from './styles.module.css';
 
 export function TermosUso() {
   return (
+    <>
+    <SEO
+                title="Termos de Uso - Trevvos"
+                description="Leia os termos de uso da Trevvos para entender suas responsabilidades e direitos ao acessar o portal."
+                url="https://trevvos.com.br/termos-de-uso"
+            />
     <section className={styles.container}>
       <h1>Termos de Uso</h1>
       <p>Bem-vindo ao portal Trevvos. Ao acessar este site, você concorda com os termos abaixo:</p>
@@ -36,5 +43,6 @@ export function TermosUso() {
         periodicamente.
       </p>
     </section>
+    </>
   );
 }

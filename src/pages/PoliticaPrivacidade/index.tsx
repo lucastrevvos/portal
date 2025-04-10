@@ -1,7 +1,15 @@
+import { SEO } from '../../components/SEO';
 import styles from './styles.module.css';
 
 export function PoliticaPrivacidade() {
   return (
+    <>
+    <SEO
+      title="Política de Privacidade - Trevvos"
+      description="Saiba como a Trevvos coleta, usa e protege suas informações ao usar nosso portal."
+      url="https://trevvos.com.br/politica-de-privacidade"
+    />
+
     <section className={styles.container}>
       <h1>Política de Privacidade</h1>
 
@@ -36,5 +44,6 @@ export function PoliticaPrivacidade() {
         Podemos atualizar esta política a qualquer momento. Recomendamos que você a revise periodicamente.
       </p>
     </section>
+    </>
   );
 }

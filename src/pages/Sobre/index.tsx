@@ -1,7 +1,15 @@
+import { SEO } from '../../components/SEO';
 import styles from './styles.module.css';
 
 export function Sobre() {
   return (
+    <>
+    <SEO
+      title="Sobre a Trevvos"
+      description="Conheça a Trevvos: conteúdo e soluções digitais focadas em tecnologia, finanças e saúde."
+      url="https://trevvos.com.br/sobre"
+    />
+
     <section className={styles.container}>
       <h1>Sobre a Trevvos</h1>
 
@@ -20,5 +28,6 @@ export function Sobre() {
         humano, intuitivo e útil no cotidiano.
       </p>
     </section>
+    </>
   );
 }
