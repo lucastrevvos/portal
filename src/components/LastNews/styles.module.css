@@ -3,6 +3,18 @@
     color: var(--cor-textos);
 }
 
+.container {
+    a {
+        text-decoration: none;
+        color: var(--cor-textos);
+    }
+
+    a:visited {
+        color: var(--cor-textos);
+    }
+
+}
+
 h1 {
     font-weight: bold;
     font-size: 1.5rem;
@@ -16,13 +28,12 @@ h2 {
 }
 
 .card {
- display: flex;
- justify-content: space-between;
- align-items: center;
- gap: 1rem;
- line-height: 1.5;
- margin-bottom: 25px;
- 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
 }
 
 .imagem {
@@ -69,6 +80,8 @@ h2 {
             line-height: 1.6;
             padding: 0.50rem;
         }
+
+        
         
     }
 

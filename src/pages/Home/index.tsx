@@ -16,8 +16,8 @@ export function Home(){
                     Descubra nosso ecossistema de apps, utilitários e conhecimento.
                 </p>
                 <div className={styles.buttons}>
-                    <Button title='Ver nossos apps' onClick={() => alert('apps')}></Button>
-                    <Button title='Explorar conteúdos' typeBtn='secundary'></Button>
+                    <Button title='Ver nossos apps' onClick={() => alert('Aguarde só mais um pouquinho estamos em desenvolvimento :)')}></Button>
+                    <Button title='Contato direto' typeBtn='secundary'></Button>
                 </div>
             </div>
         </div>

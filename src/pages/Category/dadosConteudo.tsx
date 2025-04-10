@@ -529,7 +529,177 @@ export const dadosConteudo = [
         </p>
         </>
         ),
-        },
+    },
+
+    {
+        id: 15,
+        categoria: 'tecnologia',
+        tipo: 'noticias',
+        titulo: 'WhatsApp agora permite múltiplos celulares com a mesma conta: veja como ativar',
+        resumo: 'O WhatsApp liberou oficialmente o recurso que permite usar uma mesma conta em mais de um celular ao mesmo tempo. A funcionalidade, aguardada por muitos usuários, já está disponível para Android e iOS.',
+        imagem: '/whatsapp.png',
+        link: '/categoria/tecnologia/15/?filtro=noticias',
+        conteudo: (
+        <>
+        <article className={styles.container}>
+
+            <p>O WhatsApp liberou oficialmente o recurso que permite usar uma mesma conta em mais de um celular ao mesmo tempo. A funcionalidade, aguardada por muitos usuários, já está disponível para Android e iOS.</p>
+
+            <h2> O que mudou?</h2>
+            <p>Antes, o WhatsApp só permitia o uso simultâneo em um celular e dispositivos complementares (como o WhatsApp Web ou Desktop). Agora, é possível usar a mesma conta principal em até <strong>quatro smartphones</strong> de forma sincronizada.</p>
+
+            <h2>✅ Quais as vantagens?</h2>
+            <ul>
+                <li>Ideal para quem usa mais de um celular no dia a dia</li>
+                <li>Sincronização automática de conversas</li>
+                <li>Maior flexibilidade para usuários e empresas</li>
+            </ul>
+
+            <h2>🔒 E a segurança?</h2>
+            <p>Segundo a Meta, o recurso mantém a criptografia de ponta a ponta mesmo com vários aparelhos conectados. Cada celular adicional precisa ser autorizado manualmente.</p>
+
+            <h2> Como ativar a função:</h2>
+            <ol>
+                <li>Atualize o WhatsApp para a versão mais recente</li>
+                <li>No celular principal, vá em <strong>Configurações &gt; Aparelhos conectados</strong></li>
+                <li>Toque em "Conectar um aparelho"</li>
+                <li>No celular secundário, baixe o WhatsApp e toque em "Conectar um aparelho"</li>
+                <li>Use o celular principal para escanear o QR Code exibido no segundo celular</li>
+            </ol>
+
+            <h2>⚠️ Requisitos:</h2>
+            <ul>
+                <li>A função está sendo liberada gradualmente</li>
+                <li>É necessário manter o aparelho principal ativo periodicamente</li>
+            </ul>
+
+            <p>Essa atualização facilita bastante a vida de quem precisa estar conectado em mais de um celular — sem precisar recorrer a gambiarras. Fique de olho nas próximas novidades do app!</p>
+
+            <hr />
+
+            <strong>Resumo:</strong>
+            <p>Agora é possível usar a mesma conta do WhatsApp em até 4 celulares diferentes. O recurso está disponível para Android e iOS e mantém a criptografia de ponta a ponta entre os aparelhos.</p>
+            </article>
+
+        
+        <br />
+
+        <p>
+            <strong>Autor: Lucas Amaral - CEO Trevvos</strong>
+        </p>
+        </>
+        ),
+    },
+
+    {
+        id: 16,
+        categoria: 'financas',
+        tipo: 'noticias',
+        titulo: 'Pix automático começa a ser testado: o que é e como vai funcionar',
+        resumo: 'O Banco Central anunciou o início dos testes do novo recurso "Pix Automático", que promete revolucionar a forma como realizamos pagamentos recorrentes no Brasil. A novidade está prevista para chegar ao público em 2024.',
+        imagem: '/pix.png',
+        link: '/categoria/financas/16/?filtro=noticias',
+        conteudo: (
+        <>
+        <article className={styles.container}>
+
+
+            <p>O Banco Central anunciou o início dos testes do novo recurso <strong>Pix Automático</strong>, que promete revolucionar a forma como realizamos pagamentos recorrentes no Brasil. A novidade está prevista para chegar ao público em 2024.</p>
+
+            <h2> O que é o Pix Automático?</h2>
+            <p>É uma funcionalidade que permitirá agendar pagamentos recorrentes via Pix. Será possível, por exemplo, pagar mensalidades de serviços de streaming, academia, plano de saúde e até contas fixas com débito automático — tudo usando Pix.</p>
+
+            <h2> Como vai funcionar?</h2>
+            <p>O usuário autoriza previamente o débito recorrente em sua conta, com um valor e periodicidade definidos. A autorização pode ser cancelada a qualquer momento, e cada débito é registrado com total transparência.</p>
+
+            <h2>Segurança e controle</h2>
+            <ul>
+                <li>O cliente poderá definir limite de valor</li>
+                <li>Receberá notificações de cada movimentação</li>
+                <li>A autorização é digital e pode ser revogada facilmente</li>
+            </ul>
+
+            <h2>Quando será lançado?</h2>
+            <p>O Pix Automático está em fase de testes com instituições financeiras e deve ser liberado para o público geral no segundo semestre de 2024, segundo o Banco Central.</p>
+
+            <h2>Impacto esperado</h2>
+            <p>A medida deve facilitar a vida dos consumidores e empresas, substituindo gradualmente o tradicional débito automático, com mais controle e menos burocracia.</p>
+
+            <hr />
+
+            <strong>Resumo:</strong>
+            <br />
+            <p>O Banco Central iniciou os testes do Pix Automático, que permitirá pagamentos recorrentes com agendamento via Pix. A funcionalidade será lançada para o público geral ainda em 2024.</p>
+        </article>
+
+        <p>
+            <br />
+            <strong>Fonte: Lucas Amaral - CEO Trevvos</strong>
+        </p>
+
+        </>
+        ),
+    },
+
+    {
+        id: 17,
+        categoria: 'saude',
+        tipo: 'noticias',
+        titulo: 'Nova campanha de vacinação nacional: quem deve tomar e quando',
+        resumo: 'O Ministério da Saúde deu início à nova campanha de vacinação 2024, voltada para imunizar grupos prioritários contra a gripe (influenza) e atualizar a carteira vacinal de milhões de brasileiros. A ação começou em abril e segue com calendário escalonado.',
+        imagem: '/vacina.png',
+        link: '/categoria/saude/17/?filtro=noticias',
+        conteudo: (
+        <>
+        <article className={styles.container}>
+
+            <p>O Ministério da Saúde deu início à nova campanha de vacinação 2024, voltada para imunizar grupos prioritários contra a gripe (influenza) e atualizar a carteira vacinal de milhões de brasileiros. A ação começou em abril e segue com calendário escalonado.</p>
+
+            <h2>Quais vacinas estão incluídas?</h2>
+            <ul>
+                <li>Vacina contra a gripe (Influenza)</li>
+                <li>Vacinação de rotina para crianças, adolescentes e adultos</li>
+                <li>Reforço de vacinas contra COVID-19 em grupos específicos</li>
+            </ul>
+
+            <h2> Quem deve tomar?</h2>
+            <p>A campanha tem foco inicial nos grupos de risco:</p>
+            <ul>
+                <li>Idosos com 60 anos ou mais</li>
+                <li>Gestantes e puérperas (mães recentes)</li>
+                <li>Crianças de 6 meses a menores de 6 anos</li>
+                <li>Pessoas com comorbidades</li>
+                <li>Trabalhadores da saúde e da educação</li>
+                <li>Povos indígenas e ribeirinhos</li>
+            </ul>
+
+            <h2> Quando e onde se vacinar?</h2>
+            <p>A vacinação acontece em todo o território nacional, nos postos de saúde do SUS. A campanha será realizada em fases, priorizando os grupos mais vulneráveis nas primeiras semanas.</p>
+
+            <h2> Importância da campanha</h2>
+            <p>A vacinação é essencial para prevenir surtos de gripe e reduzir internações. Ela também é uma forma de proteger os sistemas de saúde, especialmente em períodos de maior circulação de vírus.</p>
+
+            <h2> Fique atento!</h2>
+            <ul>
+                <li>Leve documento com foto e cartão do SUS</li>
+                <li>Se tiver, leve a carteira de vacinação</li>
+                <li>Mesmo quem já teve gripe deve se vacinar anualmente</li>
+            </ul>
+
+            <hr />
+
+            <strong>Resumo:</strong>
+            <p>Começou a campanha nacional de vacinação 2024, com foco em gripe e atualização de vacinas. Grupos prioritários devem procurar os postos do SUS conforme o calendário divulgado.</p>
+        </article>
+
+        <p>
+            <br />
+            <strong>Fonte: Lucas Amaral - CEO Trevvos</strong>
+        </p>
+
+        </>
+        ),
+    },
     
     
 

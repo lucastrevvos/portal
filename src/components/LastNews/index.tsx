@@ -1,38 +1,36 @@
 import styles from './styles.module.css'
-import noticia1 from '../../assets/news/noticia1.png'
+import { dadosConteudo } from '../../pages/Category/dadosConteudo'
 
 export function LastNews(){
+
+    const categoria = ['tecnologia', 'financas', 'saude']
+
+    const ultimasNoticias = categoria.map(categoria => {
+        return dadosConteudo
+            .filter(item => item.categoria === categoria && item.tipo === 'noticias')
+            .sort((a, b) => b.id - a.id)[0]
+    }).filter(Boolean) // remove undefined se não houver
+
     return (
         <div className={styles.container}>
             <div className={styles.content}>
                 <h1>Últimas Notícias</h1>
                 <div className={styles.lastNews}>
-                    <div className={styles.card}>
-                        <div className={styles.imagem}>
-                            <img src={noticia1} alt="" />
-                        </div>
-                            <p>Instagram deu início aos testes da função "Minhas listas" no Threads, que 
-                                tem umas dadas novidades prometidas pelo diretor Adam Mosseri
-                            </p>
-                    </div>
-                    <div className={styles.card}>
-                        <div className={styles.imagem}>
-                                <img src={noticia1} alt="" />
-                        </div>
+                   {
+                    ultimasNoticias.map((noticia) => (
+                        <a href={noticia.link} key={noticia.id} className={styles.card}>
+                            <div className={styles.imagem}>
+                                <img src={noticia.imagem} alt={noticia.titulo} />
+                            </div>
+                            
                             <p>
-                                Instagram deu início aos testes da função "Minhas listas" no Threads, que 
-                                tem umas dadas novidades prometidas pelo diretor Adam Mosseri
+                                <strong>{noticia.titulo}</strong>
+                                <br />
+                                {noticia.resumo.length > 70 ? `${noticia.resumo.slice(0,70)}...` : noticia.resumo}
                             </p>
-                        </div>
-                    <div className={styles.card}>
-                        <div className={styles.imagem}>
-                            <img src={noticia1} alt="" />
-                        </div>
-                            <p>
-                                Instagram deu início aos testes da função "Minhas listas" no Threads, que 
-                                tem umas dadas novidades prometidas pelo diretor Adam Mosseri
-                            </p>
-                    </div>
+                        </a>
+                    ))
+                   }
                 </div>
             </div>
         </div>
