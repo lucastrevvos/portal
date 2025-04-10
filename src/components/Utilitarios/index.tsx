@@ -11,16 +11,18 @@ export function Utilitarios(){
                 <h1>Utilitários</h1>
                 <p>Ferramentas para facilitar sua vida. De cálculos a simuladores, tudo em só lugar.</p>
                 <div className={styles.utils}>
+                <a href="/categoria/utilitarios?filtro=calculadoras">
                     <span>
                     <div>
                         <img src={calc} alt="" />
-                        </div>
+                    </div>
                    
                         <h2>Calculadoras</h2>
                         <p>Cálculos práticos, IMC, juros compostos e mais</p>
                     
                     </span>
-
+                </a>
+                <a href="/categoria/utilitarios?filtro=simuladores">
                     <span>
                         <div>
                         <img src={simuladores} alt="" />
@@ -30,7 +32,8 @@ export function Utilitarios(){
                             <p>Planeje aposentadoria, leitura e investimentos</p>
                         
                     </span>
-
+                </a>
+                <a href="/categoria/utilitarios?filtro=conversores">
                     <span>
                         <div>
                             <img src={conversores} alt="" />
@@ -40,6 +43,7 @@ export function Utilitarios(){
                         <p>Converta moedas unidades de tempo com facilidade</p>
                         
                     </span>
+                </a>
                 </div>
             </div>
         </div>

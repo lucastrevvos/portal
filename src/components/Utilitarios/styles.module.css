@@ -2,6 +2,15 @@
     padding: 0.5rem;
     color: var(--cor-textos);
     margin-top: 30px;
+
+    a {
+        text-decoration: none;
+        color: var(--cor-textos);
+    }
+
+    a:visited {
+        color: var(--cor-textos);
+    }
 }
 
 

@@ -17,7 +17,9 @@ export function Home(){
                 </p>
                 <div className={styles.buttons}>
                     <Button title='Ver nossos apps' onClick={() => alert('Aguarde só mais um pouquinho estamos em desenvolvimento :)')}></Button>
-                    <Button title='Contato direto' typeBtn='secundary'></Button>
+                    <a href="https://wa.me/5511945043408" target="_blank" rel="noopener noreferrer">
+                        <Button title="Atendimento via Whats" typeBtn="secundary" />
+                    </a>
                 </div>
             </div>
         </div>
