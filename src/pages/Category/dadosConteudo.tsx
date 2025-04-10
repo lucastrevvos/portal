@@ -300,7 +300,7 @@ export const dadosConteudo = [
         categoria: 'utilitarios',
         tipo: 'calculadoras',
         titulo: 'Calculadora IMC',
-        resumo: 'Calcule IMC',
+        resumo: 'Calcule seu indice de massa corporal de uma forma simples.',
         imagem: '/utilitarios/calc-thumb.png',
         link: '/categoria/utilitarios/7/?filtro=calculadoras',
         conteudo: (

@@ -1,7 +1,9 @@
 .container {
     padding: 0 1rem;
     color: var(--cor-primaria);
-    gap: 1.5rem;   
+    gap: 1.5rem;
+   
+    margin: 0 auto;   
 }
 
 
@@ -49,5 +51,24 @@
         background-color: #ccc;
         cursor: not-allowed;
         color: #666;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .content {
+        max-width: 1024px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        
+    }
+
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .content p {
+        font-size: 1.6rem;
     }
 }
