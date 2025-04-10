@@ -35,6 +35,7 @@
 .container h3 {
     font-size: 1.3rem;
     font-weight: 600;
+
     color: var(--cor-texto-principal, #222);
     margin: 0;
   }

@@ -1,7 +1,15 @@
 .container {
     padding: 0 1rem;
     color: var(--cor-primaria);
-    gap: 1.5rem;
+    gap: 1.5rem;   
+}
+
+
+.container > ul li {
+ 
+    list-style: none;
+    color: #444;
+  
 }
 
 .content {
