@@ -548,14 +548,14 @@ export const dadosConteudo = [
             <h2> O que mudou?</h2>
             <p>Antes, o WhatsApp só permitia o uso simultâneo em um celular e dispositivos complementares (como o WhatsApp Web ou Desktop). Agora, é possível usar a mesma conta principal em até <strong>quatro smartphones</strong> de forma sincronizada.</p>
 
-            <h2>✅ Quais as vantagens?</h2>
+            <h2> Quais as vantagens?</h2>
             <ul>
                 <li>Ideal para quem usa mais de um celular no dia a dia</li>
                 <li>Sincronização automática de conversas</li>
                 <li>Maior flexibilidade para usuários e empresas</li>
             </ul>
 
-            <h2>🔒 E a segurança?</h2>
+            <h2> E a segurança?</h2>
             <p>Segundo a Meta, o recurso mantém a criptografia de ponta a ponta mesmo com vários aparelhos conectados. Cada celular adicional precisa ser autorizado manualmente.</p>
 
             <h2> Como ativar a função:</h2>
@@ -567,7 +567,7 @@ export const dadosConteudo = [
                 <li>Use o celular principal para escanear o QR Code exibido no segundo celular</li>
             </ol>
 
-            <h2>⚠️ Requisitos:</h2>
+            <h2> Requisitos:</h2>
             <ul>
                 <li>A função está sendo liberada gradualmente</li>
                 <li>É necessário manter o aparelho principal ativo periodicamente</li>

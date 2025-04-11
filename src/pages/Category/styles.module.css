@@ -14,6 +14,12 @@
   
 }
 
+.container > ol li {
+ 
+    color: #444;
+  
+}
+
 .content {
     display: flex;
     flex-direction: column;
