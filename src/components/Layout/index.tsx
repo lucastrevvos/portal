@@ -3,12 +3,14 @@ import logo from '../../assets/logotipo-trevvos.png'
 import { Outlet } from 'react-router'
 import { useState } from 'react'
 import { Footer } from '../Footer'
+import { GoogleAnalytics } from '../Analytics'
 
 export function Layout() {
     const [open, setOpen] = useState(false)
 
     return (
         <>
+        <GoogleAnalytics />
         <header>
             <div className="navbar">
             <a href="/"><img  src={logo} alt="Logotipo Trevvos" /></a>
