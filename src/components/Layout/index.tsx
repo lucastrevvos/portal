@@ -11,6 +11,7 @@ export function Layout() {
     return (
         <>
         <GoogleAnalytics />
+         
         <header>
             <div className="navbar">
             <a href="/"><img  src={logo} alt="Logotipo Trevvos" /></a>
