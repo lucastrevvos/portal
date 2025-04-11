@@ -16,13 +16,6 @@ export function SEO({ title, description, image, url }: Props) {
       <meta property="og:description" content={description} />
       {image && <meta property="og:image" content={image} />}
       {url && <meta property="og:url" content={url} />}
-
-       {/* Código de verificação AdSense */}
-       <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4582571318827709"
-        crossOrigin="anonymous"
-      ></script>
     </Helmet>
   )
 }
