@@ -173,7 +173,7 @@ export const dadosConteudo = [
         tipo: 'artigos',
         titulo: 'O que é a taxa Selic e como ela afeta sua vida financeira',
         resumo: 'A taxa Selic é a taxa básica de juros da economia brasileira. Ela afeta diretamente os juros que você paga em empréstimos e o rendimento dos seus investimentos. Entender como ela funciona ajuda você a tomar melhores decisões com seu dinheiro.',
-        link: '/categoria/financas/4/?filtro=financas',
+        link: '/categoria/financas/4/?filtro=artigos',
         imagem: '/selic.png',
         conteudo: (
             <>
@@ -189,7 +189,7 @@ export const dadosConteudo = [
                     <ul>
                         <li><strong>Empréstimos e financiamentos:</strong> Juros mais altos quando a Selic sobe, e mais baixos quando ela cai.</li>
                         <li><strong>Investimentos:</strong> Rende mais em aplicações como <em>Tesouro Selic</em> e <em>CDBs pós-fixados</em> quando a Selic está alta.</li>
-                        <li><strong>Inflação:</strong> Selic alta ajuda a conter o aumento dos preços.</li>
+                        <li><strong>Inflação:</strong> Selic alta ajuda a conter o aumento dos preços. <a href="https://www.trevvos.com.br/categoria/financas/18/?filtro=artigos">Entenda mais sobre a Inflação</a></li> 
                         <li><strong>Cartão de crédito:</strong> Os juros do rotativo costumam subir com a Selic — mais um motivo pra evitar o parcelamento da fatura.</li>
                     </ul>
 
@@ -700,6 +700,66 @@ export const dadosConteudo = [
         </>
         ),
     },
+
+    {
+        id: 18,
+        categoria: 'financas',
+        tipo: 'artigos',
+        titulo: 'O que é a inflação? E por que ela afeta tanto a sua vida',
+        resumo: 'Inflação é o aumento geral e contínuo dos preços de produtos e serviços ao longo do tempo. Se antes você comprava um café por R$ 3 e hoje paga R$ 5, isso é inflação na prática.',
+        imagem: '/inflacao.png',
+        link: '/categoria/financas/18/?filtro=artigos',
+        conteudo: (
+        <>
+            <article className={styles.container}> 
+
+                <p>
+                Inflação é o aumento geral e contínuo dos preços de produtos e serviços ao longo do tempo. Se antes você comprava um café por R$ 3 e hoje paga R$ 5, isso é inflação na prática.</p>
+
+                <h2> Por que a inflação acontece?</h2>
+                <p>A inflação pode surgir por vários motivos. Os principais:</p>
+                <ul>
+                    <li><strong>Alta demanda:</strong> Muita gente querendo comprar, pouca oferta. Resultado? Preço sobe.</li>
+                    <li><strong>Aumento de custos:</strong> Se o combustível, a energia ou o dólar disparam, tudo encarece.</li>
+                    <li><strong>Emissão de dinheiro:</strong> Quando o governo imprime dinheiro demais, o valor dele cai, e os preços sobem.</li>
+                </ul>
+
+                <h2> Como ela impacta o seu bolso?</h2>
+                <ul>
+                    <li>O <strong>dinheiro perde valor</strong>: R$ 100 hoje não compram o que compravam há 2 anos.</li>
+                    <li>Seu <strong>salário parece encolher</strong>, mesmo que ele não tenha mudado.</li>
+                    <li><strong>Planejar o futuro fica mais difícil</strong>: poupança e salário parado = perda de poder de compra.</li>
+                </ul>
+
+                <h2> E o que o governo faz com isso?</h2>
+                <p>O principal controle é a <strong>taxa Selic</strong> (lembra dela?).<br />
+                Quando a inflação dispara, o Banco Central <strong>aumenta a <a href="https://www.trevvos.com.br/categoria/financas/4/?filtro=artigos">Selic</a></strong> pra frear o consumo e desacelerar os preços.</p>
+
+                <h2>📈 Inflação boa vs. inflação ruim</h2>
+                <ul>
+                    <li><strong>Inflação moderada</strong>: é até esperada e saudável.</li>
+                    <li><strong>Inflação alta e fora de controle</strong>: derruba salários, causa instabilidade e assusta os investidores.</li>
+                </ul>
+
+                <h2>✅ Dica final Trevvos:</h2>
+                <ul>
+                    <li>Mantenha uma <strong>reserva de emergência</strong> protegida da inflação (ex: Tesouro Selic, CDB pós-fixado).</li>
+                    <li>Evite deixar dinheiro parado na poupança por muito tempo.</li>
+                    <li>Aprenda a ajustar seu orçamento com base no aumento real dos preços.</li>
+                </ul>
+
+        <p>
+            <br />
+            <strong>Autor: Lucas Amaral - CEO Trevvos</strong>
+        </p>
+  
+            </article>
+
+        </>
+        ),
+    },
+
+    
     
     
 
